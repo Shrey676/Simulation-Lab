@@ -1,10 +1,12 @@
-# Simulation-Lab
+# SimulationModelling
 
-# TyreShopProblem
-![IMG-20210731-WA0010](https://user-images.githubusercontent.com/52188816/127749320-e226b82a-5974-4761-9ee0-8af63045c256.jpg)
-
+All the college assignments for Simulation Modelling Lab. 
 
 
-# PurePursuitProblem
-![simulation](https://user-images.githubusercontent.com/52188816/127198659-0a8eafa4-f363-477c-8a95-2993776e2340.png)
-![simulationout](https://user-images.githubusercontent.com/52188816/127198661-00aaf19d-d239-45da-ac38-49a2d6627de1.png)
+Name: SHREY JAIN</br>
+Roll Number: 1/18/FET/BCS/092
+
+
+- (1).[Pure Pursuit Problem Code](1-PurePursuitProblem/PurePursuitProblem.cpp) | [Output](1-PurePursuitProblem/program1output.JPG) | [Question](1-PurePursuitProblem/Assignment-1.pdf)
+- (2).[Tyre Shop Inventory Problem Code](2-TyreShopInventoryProblem/TyreShopInventoryProblem.cpp) | [Output](2-TyreShopInventoryProblem/program2output.JPG) | [Question](2-TyreShopInventoryProblem/Assignment-2.pdf)  
+- [Single Server Single Queue Code](SingleServerSingleQueue/SingleServerSingleQueue.cpp) | [Output](SingleServerSingleQueue/SingleServerSingleQueueOutput.JPG) | [Question](SingleServerSingleQueue/Assignment_SingleServerSingleQueue.pdf)
