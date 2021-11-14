@@ -1,0 +1,19 @@
+disp('Enter the value of dice roll')
+
+A(1,:)=[1,2,3,4,5,6]
+
+M=sum(A)/6;
+
+disp(M)
+
+for i=1:6;
+
+T(i)=(M - A(1,i))^2
+
+V=(sum(T(i))/5);
+
+end
+
+disp(V)
+
+plot(A(i),V,"*")

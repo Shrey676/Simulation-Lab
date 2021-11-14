@@ -1,0 +1,27 @@
+P=input('p=');
+Q=input('q=');
+C=0.0
+S=115
+i(1)=1 
+UD=0
+DD=0
+ES=0
+for i=1:180;
+if(DD~=i) then
+DEM=rand(00,99)*100;
+else
+S=S+Q
+UD=0
+end
+if(DEM<S) then
+S=S-DEM
+C=C+(S)*75
+else
+C+((DEM)-(S))*18.0
+S=0
+UD=Q
+DD=i+3
+C=C+75.0
+end
+disp(C)
+end

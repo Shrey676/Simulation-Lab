@@ -1,0 +1,16 @@
+queue. function FCFS() n=input("Enter the no. of process :")
+disp(" enter the burst time of process :") for i=1:n
+disp(i,"Process" ) b(i)=input(" ") a(i)=i
+end w(1)=0 avg=0
+disp(w(1),a(1),"process waiting time:") for i= 2:n
+w(i)=b(i-1)+w(i-1) disp(w(i),a(i),"Process waiting time") avg=avg+w(i)
+end
+disp(avg,"total waiting time") disp(avg/n,"total avg waiting time is") tat(1)=b(1)
+avg1=b(1)
+disp(tat(1),a(1),"process turn aroundtime:") for k= 2:n
+tat(k)=tat(k-1)+b(k)
+disp(tat(k),a(k),"Process Turn around time:") avg1=avg1+tat(k)
+end
+disp(avg1,"Total turn around time: ") disp(avg1/n,"Total avg turn around time is; ")
+//exec('C:\Users\Administrator\Desktop\mona sainiprjct\new //prg\fcfs.sci', -1)
+endfunction FCFS()

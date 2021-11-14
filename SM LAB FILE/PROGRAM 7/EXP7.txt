@@ -1,0 +1,30 @@
+f=input('enter the value of flow rate');
+
+enter the value of flow rate 5
+
+t=input('enter the time to fill the tank');
+
+enter the time to fill the tank 2
+
+r=input('enter the radius of thetank');
+
+enter the radius of the tank 1
+
+ h=input('enter the height of thetank'); enter the
+
+height of the tank 2
+
+vtank=%pi*r*r;
+
+ vliquid=f*t;
+
+ if(vliquid>vtank)
+
+then
+
+disp('tank is overflowing')
+
+else
+
+disp('tank is not overflowing 
+end

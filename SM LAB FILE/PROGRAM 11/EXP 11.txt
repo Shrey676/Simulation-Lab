@@ -1,0 +1,8 @@
+m=[….] 
+w=[….]
+
+C=cov(m,W)
+
+D=correl(m,W)
+
+xlabel("MPG"); ylabel("Weight"); plot(m,W,50)

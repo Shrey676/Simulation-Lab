@@ -1,0 +1,18 @@
+M=input('Enter the Number of Members:');
+
+J=input('Enter the Number of Joints:');
+
+N=2*J-3;
+
+if M==N then
+
+disp('The Given Structure is Stable:');
+
+elseif M>N then
+
+disp('The Given Structure is In determine:');
+
+else
+
+disp('The Given Structure is Unstable:');
+

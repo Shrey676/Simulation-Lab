@@ -1,0 +1,10 @@
+age=[15,16,17,18,19,20];
+freq=[2;5;11;9;14;13];
+
+total=age*freq;
+mean=total/sum(freq)
+
+mean = 
+18.240741
+
+ Plot (age,freq)
